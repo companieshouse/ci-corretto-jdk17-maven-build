@@ -11,8 +11,7 @@ print_info () {
 M2_HOME="${HOME}/.m2"
 mkdir -p "${M2_HOME}"
 
-M2_LOCAL_REPO="${PWD}/.m2/repository"
-
+M2_LOCAL_REPO="${M2_HOME}/repository"
 mkdir -p "${M2_LOCAL_REPO}"
 
 cat > "${M2_HOME}"/settings.xml <<EOF
