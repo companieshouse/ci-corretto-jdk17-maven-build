@@ -1,5 +1,4 @@
-ARG CORE_VERSION="latest"
-FROM 416670754337.dkr.ecr.eu-west-2.amazonaws.com/ci-base-build:${CORE_VERSION}
+FROM 416670754337.dkr.ecr.eu-west-2.amazonaws.com/ci-base-build:1.0.3
 
 ARG ARTIFACTORY_URL=""
 ENV ARTIFACTORY_URL=${ARTIFACTORY_URL}
